@@ -1,0 +1,78 @@
+.icon{
+    font-size: 120px;
+    text-align: center;
+    padding-top: 20px;
+    color: #ed6a05;
+}
+h1{
+    text-align: center;
+}
+h3{
+    margin-left: 40px;
+}
+.p{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: 24px;
+}
+.email{
+    text-align: center;
+}
+.container{
+
+	font-size: 20px;
+    width: 60%;
+    padding-top: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+.contain{
+
+	font-size: 20px;
+	padding-left: 120px;
+    padding-top: 10px;
+}
+.content{
+	font-size: 20px;
+	padding-left: 150px;
+	padding-top: 20px;
+}
+.pay{
+    text-align: center;
+}
+.conte{
+	font-size: 20px;
+}
+.items{
+	font-size: 20px;
+    margin: auto;
+}
+table {
+  width: 50%;
+  border-collapse: collapse;
+  border: none;
+  padding-top: 20px;
+  padding: auto;
+}
+footer{
+    margin-top: 80px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 29.8125rem /*477px*/) {
+    .logo, .contacts, .careers {
+        justify-content: space-around;
+    }
+}
+@media only screen and (min-width: 77.5rem /*1240px*/ ) {
+    .logo, .contacts, .careers {
+        justify-content: space-evenly;
+    }
+}
